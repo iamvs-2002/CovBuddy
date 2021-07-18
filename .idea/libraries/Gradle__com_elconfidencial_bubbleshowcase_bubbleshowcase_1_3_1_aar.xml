@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.elconfidencial.bubbleshowcase:bubbleshowcase:1.3.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47e0d1aaa72656783f9a047ffdfd2df7/jetified-bubbleshowcase-1.3.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47e0d1aaa72656783f9a047ffdfd2df7/jetified-bubbleshowcase-1.3.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/47e0d1aaa72656783f9a047ffdfd2df7/jetified-bubbleshowcase-1.3.1/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fad68a62740788fc88ed5aae64012715/jetified-bubbleshowcase-1.3.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fad68a62740788fc88ed5aae64012715/jetified-bubbleshowcase-1.3.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fad68a62740788fc88ed5aae64012715/jetified-bubbleshowcase-1.3.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.elconfidencial.bubbleshowcase/bubbleshowcase/1.3.1/b0c2aa2b3928efa624c00c31e68a079376447dc1/bubbleshowcase-1.3.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.elconfidencial.bubbleshowcase/bubbleshowcase/1.3.1/d1d70442e75642ec3c3ca02d6702950806f9d776/bubbleshowcase-1.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

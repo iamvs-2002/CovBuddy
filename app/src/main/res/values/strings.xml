@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">CovBuddy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ansFirstText">Coronavirus disease 2019 (COVID-19), also known as the coronavirus or COVID, is a contagious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), the coronavirus that emerged in December 2019. The coronavirus can be spread from person to person.</string>
+    <string name="queSec">What is Coronavirus?</string>
+    <string name="queSec2">कोरोना वायरस क्या है?</string>
+    <string name="ansFirstText2">कोरोना वायरस का संबंध वायरस के ऐसे परिवार से है, जिसके संक्रमण से जुकाम से लेकर सांस लेने में तकलीफ जैसी समस्या हो सकती है। इस वायरस को पहले कभी नहीं देखा गया है। कोरोनावायरस एक व्यक्ति से दूसरे व्यक्ति में फैल सकता है।</string>
+    <string name="ansSec">Coronaviruses are a family of viruses that can cause illnesses such as the common cold, severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS). In 2019, a new coronavirus was identified as the cause of a disease outbreak that originated in China. The virus is now known as the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).</string>
+    <string name="english">English</string>
+    <string name="hindi">हिंदी</string>
+    <string name="dryCough">Dry Cough</string>
+    <string name="fever_tiredness">Fever &amp; Tiredness</string>
+    <string name="aches_and_pains">Aches &amp; Pains</string>
+    <string name="runny_nose">Runny Nose</string>
+    <string name="sore_throat_or_diarrhea">Sore throat or Diarrhea</string>
+    <string name="state_name">State Name</string>
+    <string name="covidsym">The most common symptoms of Coronavirus</string>
+    <string name="headache">Headache</string>
+    <string name="breathlessness">Breathlessness</string>
+
+    <string name="dryCoughhindi">सूखी खाँसी</string>
+    <string name="feverhindi">बुखार एवं थकावट</string>
+    <string name="acheshindi">मांसपेशियों में दर्द</string>
+    <string name="runnynosehindi">नाक बहना</string>
+    <string name="sorethroathindi">गले में तकलीफ़ एवं दस्त</string>
+    <string name="headachehindi">सरदर्द</string>
+    <string name="breathlessnesshindi">श्वासहीनता</string>
+    <string name="covidsymhindi">कोरोनावायरस के सबसे आम लक्षण</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Go</string>
+
+    <string name="slide_1_title">Screen 1</string>
+    <string name="slide_1_desc">Description Screen 1</string>
+
+    <string name="slide_2_title">Screen 2</string>
+    <string name="slide_2_desc">Description Screen 2</string>
+
+    <string name="slide_3_title">Screen 3</string>
+    <string name="slide_3_desc">Description Screen 3</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="bedsinstate">The ones not in the list do not have hospitals listed on their websites.</string>
+
+</resources>

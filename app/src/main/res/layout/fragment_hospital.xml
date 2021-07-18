@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="5dp"
+    android:focusableInTouchMode="true"
+    app:cardCornerRadius="20dp"
+    android:background="@color/white"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="50dp"
+    android:layout_width="match_parent">
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_gravity="bottom"
+        tools:context=".Fragments.HospitalFragment"
+        xmlns:tools="http://schemas.android.com/tools">
+    </fragment>
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start"
+        android:backgroundTint="@color/white"
+        app:fabSize="normal"
+        android:padding="10dp"
+        android:background="@drawable/backcircle"
+        android:scaleType="centerCrop"
+        android:src="@drawable/doctorbag"
+        android:id="@+id/gotogooglemapforhospital">
+    </ImageButton>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        app:fabSize="normal"
+        android:padding="10dp"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/backcircle"
+        android:scaleType="centerCrop"
+        android:src="@drawable/oxygenmask"
+        android:id="@+id/gotogooglemapforoxygen">
+    </ImageButton>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:backgroundTint="@color/white"
+        app:fabSize="normal"
+        android:padding="10dp"
+        android:background="@drawable/backcircle"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ambulances"
+        android:id="@+id/gotogooglemapforambulance">
+    </ImageButton>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|end"
+        app:fabSize="normal"
+        android:backgroundTint="@color/white"
+        android:padding="10dp"
+        android:background="@drawable/backcircle"
+        android:scaleType="centerCrop"
+        android:src="@drawable/covidtest"
+        android:id="@+id/gotogooglemapforcovid">
+    </ImageButton>
+
+</androidx.cardview.widget.CardView>
+

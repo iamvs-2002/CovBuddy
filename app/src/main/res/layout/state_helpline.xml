@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:isScrollContainer="true"
+        android:layout_marginHorizontal="10dp"
+        android:foreground="@android:drawable/list_selector_background"
+        android:id="@+id/card"
+        app:cardElevation="1dp"
+        android:layout_marginBottom="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="3dp"
+            android:foreground="@android:drawable/list_selector_background">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/call"
+                android:layout_marginTop="1dp"
+                android:id="@+id/logo">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State Name"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/logo"
+                android:id="@+id/helpstatename"
+                android:textSize="16sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Number"
+                android:id="@+id/helpstatenumber"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/logo"
+                android:layout_below="@+id/helpstatename"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp">
+            </TextView>
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

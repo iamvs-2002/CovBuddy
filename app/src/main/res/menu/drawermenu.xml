@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeid"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/hospital"
+        android:title="Nearest Medical Services"
+        android:icon="@drawable/hospital">
+    </item>
+
+    <item
+        android:id="@+id/vaccine"
+        android:title="Vaccine Availability"
+        android:icon="@drawable/vaccine">
+    </item>
+
+    <item
+        android:id="@+id/beds"
+        android:title="Hospital Beds"
+        android:icon="@drawable/bed">
+    </item>
+
+    <item
+        android:id="@+id/helpline"
+        android:title="Helpline"
+        android:icon="@drawable/ic_call_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/news"
+        android:title="News"
+        android:icon="@drawable/news">
+    </item>
+
+    <item
+        android:id="@+id/aware"
+        android:title="Covid-19 Awareness"
+        android:icon="@drawable/awarenessmask">
+    </item>
+
+    <item
+        android:id="@+id/howtouse"
+        android:title="How to use the app"
+        android:icon="@drawable/howtouse">
+    </item>
+
+    <item
+        android:id="@+id/share"
+        android:title="Share the app"
+        android:icon="@drawable/ic_share_black_24dp">
+    </item>
+
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/ic_info_black_24dp">
+    </item>
+</menu>
